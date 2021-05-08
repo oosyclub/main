@@ -1,0 +1,141 @@
+@import "globals.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+
+/* HEADING SECTION */
+.heading-container{
+    min-height: 100vh;
+    display: flex;
+}
+.heading-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-logo-1{
+    width: 10%;
+    padding:0px 0px 10px 20px;
+}
+.btn-circle{
+    border-radius: 50% !important;
+}
+.btn-circle:hover{
+    background-color: #f3931c;
+}
+
+
+/* ABOUT SECTION */
+#about{
+    min-height: 100vh;
+    display: flex;
+}
+.text-padding{
+    padding: 2px 2px 2px 2px;
+}
+.img-1{
+    width: 70%;
+    margin-left: 25%;
+    /* box-shadow: 10px 10px 5px #f3931c; */
+    border-bottom: 5px solid #f3931c;
+    border-right: 5px solid #f3931c;
+}
+.downbtn-about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PRODUCT SECTION  */
+#product{
+    min-height: 100vh;
+    display: flex;
+}
+.carousel-img{
+    width: 30%;
+}
+.btn-carousel{
+    margin-left: 10px;
+}
+
+/* CONTACT SECIONT  */
+#contacts{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.social-button{
+    border-radius: 24px !important;
+    margin-left: 10px;
+}
+.social-button:hover{
+    background-color: #f3931c;
+}
+.img-2{
+    width: 20%;
+}
+.btn-shop:hover{
+    background-color: #f3931c;
+}
+.contacts-down{
+    margin-top: 240px;
+}
+
+/* CTA SECTION */
+#cta{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* MEDIA QUERIES  */
+@media (max-width:1080px){
+    .img-logo-1{
+        width: 30%;
+    }
+    .img-1{
+        margin-left: 15%;
+    }
+    .carousel-img{
+        width: 40%;
+    }
+    .img-2{
+        width: 30%;
+    }
+}
+@media (max-width:600px){
+    
+}
+@media (max-width:450px){
+    .img-logo-1{
+        width: 70%;
+    }
+    .carousel-img{
+        width: 60%;
+    }
+    #about{
+        text-align: center !important;
+    }
+    .img-1{
+        width: 70% !important;
+        margin-left: 1px;
+    }
+    .img-2{
+        width: 70%;
+    }
+    .l-size{
+        font-size: 3.5rem;
+    }
+}
+
